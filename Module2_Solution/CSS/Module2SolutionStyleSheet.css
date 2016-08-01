@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  width: 100%;
+}
+
+h1{text-align: center;}
+div{
+	margin:10px;
+	height: 200px;
+	background-color: gray;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	}
+
+p{
+	clear: right;
+}
+
+section{
+	padding: 0;
+	margin: 0;
+	width: 100px;
+	text-align: center;
+	border-style: solid;
+	border-color: black;
+	float:right;
+	font-weight: bold;
+
+}
+
+#section1{
+	background-color: pink;
+	color: black;
+}
+#section2{
+	background-color: red;
+	color: white;
+}
+#section3{
+	background-color: yellow;
+	color: black;
+}
+
+/**************For Desktop Device**********************/
+@media (min-width: 992px) {
+
+.div1,.div2, .div3{
+	width: 30%;
+	float:left;
+}
+
+
+}
+
+/**************For Tablet Device**********************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+.div1,.div2{
+	width: 45%;
+	float:left;
+}
+.div3{
+	width: 92%;
+	float:left;
+}
+
+}
+
+
+/**************For Mobile Device**********************/
+@media (max-width: 767px) {
+
+.div1,.div2, .div3{
+	width: 100%;
+	float:left;
+}
+
+}

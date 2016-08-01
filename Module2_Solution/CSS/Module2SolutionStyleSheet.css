@@ -7,7 +7,7 @@
 }
 
 h1{text-align: center;}
-div{
+.div1,.div2, .div3{
 	margin:10px;
 	height: 200px;
 	background-color: gray;

@@ -39,6 +39,7 @@ body {
 
 #nav-list {
   margin-top: 10px;
+  background-color: yellow;
 }
 #nav-list a {
   color: #951C49;
@@ -95,14 +96,13 @@ body {
   padding: 0;
   }
 
-.white-ourmenu{
+.text-center{
 
   height:10%;
   width: 100%;
   background-color: #fff;
   font-size: 2em;
-  text-align: center;
-  
+ 
 }
 .white-break{
   background-color:#fff;
